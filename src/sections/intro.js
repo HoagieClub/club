@@ -27,9 +27,9 @@ const Intro = ()  => {
                             <p>We want to turn Princeton applications from a bunch of isolated side-projects into an integrated software system.</p>
                         </div>
                         <div className={style.buttons}>
-                            <Button href={formURL} external={true}>Join Us</Button>
-                            <Button href="#learn" outlined={true}>Learn More</Button>
-                            <Button href="https://hoagie.io" outlined={true}>Go to Hoagie</Button>
+                            {/* <Button href={formURL} external={true}>Join Us</Button> */}
+                            <Button href="#learn" outlined={false}>Learn More</Button>
+                            <Button href="https://hoagie.io" outlined={true}>Go Back</Button>
                         </div>
                     </div>
                 </div>

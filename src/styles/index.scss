@@ -52,6 +52,7 @@ $button-height: 60px;
     display: inline-block;
     background: $white;
     height: $button-height;
+    max-width: 150px;
     padding: 0px 50px;
     border-radius: 50px;
     line-height: $button-height;
@@ -63,6 +64,7 @@ $button-height: 60px;
     text-decoration: none;
     color: $text-purple;
     margin-right: 30px;
+    margin-top: 10px;
 
     transition: all 0.3s ease-out;
 }
