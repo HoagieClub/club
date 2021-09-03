@@ -5,7 +5,7 @@ import hoagie from '../assets/hoagie_big.svg';
 import Button from '../components/button';
 
 const Intro = ()  => {
-    const formURL = 'https://forms.hoagie.io/apply';
+    const formURL = 'https://tally.so/r/nPROP3';
     return (
         <div className={"section " + style.section}>
             <div className={style.hoagies}>
@@ -27,8 +27,8 @@ const Intro = ()  => {
                             <p>We want to turn Princeton applications from a bunch of isolated side-projects into an integrated software system.</p>
                         </div>
                         <div className={style.buttons}>
-                            {/* <Button href={formURL} external={true}>Join Us</Button> */}
-                            <Button href="#learn" outlined={false}>Learn More</Button>
+                            <Button href={formURL} outlined={false} external={true}>Join Us</Button>
+                            {/* <Button href="#learn" outlined={false}>Learn More</Button> */}
                             <Button href="https://hoagie.io" outlined={true}>Go Back</Button>
                         </div>
                     </div>

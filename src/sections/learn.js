@@ -43,10 +43,10 @@ const doingText = (
 
 const togetherText = (
   <>
-    If you're interested in any of this, you can make sure we're in touch when recruitment is announced by filling out an interest form through the button below. More information about the club will be available later.
+    If you're interested in any of this, be sure to apply by September 10th!
     <br />
     <br />
-    <a href="https://tally.so/r/mVzojm" target="_blank"><Button size="large">Go to Interest Form</Button></a>
+    <a href="https://tally.so/r/nPROP3" target="_blank"><Button size="large">Apply to Hoagie!</Button></a>
     <br />
   </>
 )
