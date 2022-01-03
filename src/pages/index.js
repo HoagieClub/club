@@ -1,6 +1,7 @@
 import React from 'react';
 import Intro from '../sections/intro';
 import Learn from '../sections/learn'
+import Members from '../sections/members'
 import '../styles/index.scss';
 import ClubLayout from '../components/layout';
 import Layout from '../hoagie-ui/Layout';
@@ -13,6 +14,7 @@ export default function Home() {
   <Layout name="club">
   <ClubLayout >
     <Intro />
+    <Members />
     <Learn />
   </ClubLayout>
   </Layout>

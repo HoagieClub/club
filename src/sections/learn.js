@@ -15,7 +15,7 @@ const learningText = (
     There's two ways we make sure you always have opportunities to grow at Hoagie. 
     <br />
     <br />
-    First, we have <b>development guidelines</b>  
+    First, we have <b>development guidelines </b>  
     and a formalized code review process to simulate real-life software companies and allow you to pick up good engineering habits. We also believe best learning comes from practice and mentorship, 
     so we make sure our teams have people from a variety of backgrounds. 
     <br />
@@ -43,11 +43,18 @@ const doingText = (
 
 const togetherText = (
   <>
-    If you're interested in any of this, be sure to apply by September 10th!
+  If you are interested in any of this, be on the lookout for opportunities to join Hoagie Club. 
+  We usually recruit members in the Fall but depending on project needs may have recruit in the Spring as well.
+  <br />
+  <br />
+  In the future, we hope to provide enough resources to make contributions to Hoagie applications accessible for everyone.
+  Some of our project repositories are already open-source on GitHub and while we cannot provide contribution guidance right now,
+  you can always get in contact with us if you want to add new features to our open-source repositories without being a member.
+    {/* If you're interested in any of this, be sure to apply by September 12th!
     <br />
     <br />
     <a href="https://tally.so/r/nPROP3" target="_blank"><Button size="large">Apply to Hoagie!</Button></a>
-    <br />
+    <br /> */}
   </>
 )
 
@@ -59,7 +66,9 @@ const Learn = () => {
   return (
     <div id="learn" className={style.section + ' section'}>
       <img src={dottedLine} />
-      <ContentCard text={introText} />
+      <ContentCard 
+        title="How is Hoagie Club run?"
+        text={introText} />
       <img src={dottedLine} />
       <ContentCard
         title={learningTitle}
