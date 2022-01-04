@@ -193,8 +193,8 @@ const Members = ()  => {
             maxWidth="1200px"
             width="100%"
           >
-            <Heading marginLeft={30} marginBottom={50} fontSize="42px" color="#57309B">The people behind Hoagie</Heading>
-            <Text marginLeft={30} fontSize="26px">Hoagie would not be possible without a great team.</Text>
+            <Heading marginLeft={30} lineHeight="50px" marginBottom={50} fontSize="42px" color="#57309B">The people behind Hoagie</Heading>
+            <Pane marginLeft={30}><Text lineHeight="30px" fontSize="26px">Hoagie would not be possible without a great team.</Text></Pane>
             <Heading marginLeft={30} marginTop={30} marginBottom={20} size={900}>Officers</Heading>
             <MemberSection members={officers} />
             <Heading marginLeft={30} marginTop={40} marginBottom={20} size={900}>Projects Team</Heading>
