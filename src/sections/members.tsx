@@ -12,7 +12,7 @@ const officers = [
     "firstName": "Liam",
     "lastName": "Esparraguera",
     "title": "Vice-President",
-    "image": ""
+    "image": "https://imgur.com/a/FAEHxMV"
   },
   {
     "firstName": "Alison",
