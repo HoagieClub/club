@@ -5,7 +5,7 @@ import hoagie from '../assets/hoagie_big.svg';
 import Button from '../components/button';
 
 const Intro = ()  => {
-    const formURL = 'https://tally.so/r/nPROP3';
+    const formURL = 'https://tally.so/r/n9q56Y';
     return (
         <div className={"section " + style.section}>
             <div className={style.hoagies}>
@@ -22,13 +22,13 @@ const Intro = ()  => {
                             Hoagie Club is the team behind Hoagie.
                         </h1>
                         <div className={style.description}>
-                            <p>Hoagie Club aims to change how we build campus applications and establish a proper software engineering culture around them.</p>
+                            <p>Hoagie Club aims to change how students build campus applications and establish a proper software engineering culture around them.</p>
                             <br />
-                            <p>We want to turn Princeton applications from a bunch of isolated side-projects into an integrated software system.</p>
+                            <p>We want to turn Princeton applications from a collection of isolated side-projects into an integrated software system.</p>
                         </div>
                         <div className={style.buttons}>
-                            <Button href={formURL} outlined={false} external={true}>Join Us</Button>
-                            {/* <Button href="#learn" outlined={false}>Learn More</Button> */}
+                            <Button href={'/forms/apply'} outlined={false} external={true}>Join Us</Button>
+                            <Button href="#learn" outlined={true}>Learn More</Button>
                             <Button href="https://hoagie.io" outlined={true}>Go Back</Button>
                         </div>
                     </div>

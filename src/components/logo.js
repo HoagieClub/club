@@ -6,8 +6,8 @@ const Logo = ({name}) => {
     return (
         <a href="https://hoagie.io/">
         <div class="logo-wrapper">
-           <div class="logo"><img width="50px" src={logo} /></div>
-           <div class="logo-name">{name}</div>
+           <div class="logo-img"><img width="50px" src={logo} /></div>
+           <div class="logo-name hoagie logo">{name}</div>
         </div>
         </a>
     );

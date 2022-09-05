@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import '../styles/variables.module';
 
 document {
@@ -58,8 +58,8 @@ $button-height: 60px;
     line-height: $button-height;
     text-align: center;
     font-size: 20px;
-    font-family: Nunito;
-    font-weight: bold;
+    font-family: Poppins;
+    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     color: $text-purple;
@@ -99,7 +99,7 @@ $button-height: 60px;
     align-items: center;
 }
 
-.logo {
+.logo-img {
     margin-right: 20px;
 }
 
