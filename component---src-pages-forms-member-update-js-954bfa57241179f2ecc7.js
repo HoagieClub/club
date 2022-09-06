@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{KeiB:function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return s}));t("q1tI"),t("sg+I");var r=t("k/C3"),a=t("nKUr");function s(){return Object(a.jsx)(r.a,{name:"Member Update",src:"https://tally.so/embed/npeV1m?alignLeft=1&transparentBackground=1"})}}}]);
-//# sourceMappingURL=component---src-pages-forms-member-update-js-954bfa57241179f2ecc7.js.map
