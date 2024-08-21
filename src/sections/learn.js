@@ -30,16 +30,16 @@ const learningText = (
 const doingText = (
   <>
     As a rapidly-growing student organization, Hoagie has many exciting opportunities for members!
-    At the moment, Hoagie Club is structured into two teams: <b>Purple</b> and <b>Orange</b>.
+    At the moment, Hoagie Club is structured into two teams: <b>Apps</b> and <b>Hacks</b>.
     <br />
     <br />
-    <b>Purple Team</b> (formerly Projects Team) works directly on Hoagie Applications such as <u><a target="_blank" href="https://mail.hoagie.io">Mail</a></u>.
-    They use shared elements made by the Core Team as well as write their own application-specifc code. Some potential projects for the Fall semester include
-    adding new features to Hoagie Mail, refining Hoagie Stuff, and kicking off a brand new application project!
+    <b>Apps Team</b> works directly on Hoagie Applications such as <u><a target="_blank" href="https://mail.hoagie.io">Mail</a></u>.
+    They use shared elements from the Hoagie API and our UI component library as well as write their own application-specific code. Some potential projects for the Fall semester include
+    adding new features to HoagiePlan, officially launching HoagieStuff, maintaining HoagiePlan, and kicking off a brand new application project!
     <br />
     <br />
-    <b>Orange Team</b> (formerly Core Team) deals with features which are shared by all Hoagie Applications, as well as the platform itself. This includes
-    things like authentication, the central database, cross-app integrations, and our shared UI component library.
+    <b>Hacks Team</b> organizes HoagieHacks, weekly coding sessions where students form groups to work on programming projects they're passionate about.
+    The team gives lectures to fill in the gaps in programmers' knowledge, helps potential startup founders ideate, and offers group mentoring.
   </>
 )
 
@@ -52,10 +52,10 @@ const togetherText = (
   In the future, we hope to provide enough resources to make contributions to Hoagie applications accessible for everyone.
   Some of our project repositories are already open-source on GitHub, and while we cannot provide contribution guidance right now,
   you can always get in contact with us if you want to add new features to our open-source repositories without being a member!
-    If you're interested in any of this, be sure to apply by September 12th!
+    If you're interested in any of this, be sure to apply by September 13th!
     <br />
     <br />
-    <a href="https://tally.so/r/n9q56Y" target="_blank"><Button size="large">Apply to Hoagie!</Button></a>
+    <a href={'/forms/apply'} target="_blank"><Button size="large">Apply to Hoagie!</Button></a>
     <br />
   </>
 )
