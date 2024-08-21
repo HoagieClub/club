@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b main",
+    "deploy": "NODE_OPTIONS=--openssl-legacy-provider gatsby build && gh-pages -d public -b main",
     "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
     "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
