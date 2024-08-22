@@ -123,6 +123,7 @@ const MemberCard = ({ member }) => <Pane width="300px" marginX="30px" marginY="5
       alignItems="center"
       flexDirection="column"
       justifyContent="center"
+      align="center"
       width="200px"
     >
       <Heading size={700}>{member.firstName} {member.lastName}</Heading>
