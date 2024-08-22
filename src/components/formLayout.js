@@ -5,8 +5,8 @@ import Logo from './logo';
 
 const Layout = ({src, children, name}) => {
     let iframe;
-    if (src != undefined) {
-        iframe = <iframe src={src} width="100%" style={{ height: '650', border: 'none' }} title="Apply to Hoagie."></iframe>;
+    if (src !== undefined) {
+        iframe = <iframe src={src} width="100%" height="650" frameborder="0" marginheight="0" marginwidth="0" title="Apply to Hoagie."></iframe>;
     }
     return (
         <div className="form-page">

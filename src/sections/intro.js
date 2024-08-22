@@ -5,7 +5,6 @@ import hoagie from '../assets/hoagie_big.svg';
 import Button from '../components/button';
 
 const Intro = ()  => {
-    const formURL = 'https://tally.so/r/wa0kAy';
     return (
         <div className={"section " + style.section}>
             <div className={style.hoagies}>

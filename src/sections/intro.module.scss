@@ -65,7 +65,7 @@ $hoagie-height: 480px;
     top: 100%;
     left: 70%;
     transform: rotate(15deg);
-    margin-top: -$hoagie-big-height/1.5;
+    margin-top: calc(-#{$hoagie-big-height} / 1.5);
 }
 
 @include nondesktop {
