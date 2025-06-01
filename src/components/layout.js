@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/index.scss';
-import Footer from './footer';
+import Footer from '../hoagie-ui/Footer';
 
 const Layout = (props) => {
     return (

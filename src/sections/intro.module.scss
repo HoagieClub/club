@@ -33,18 +33,25 @@
 $hoagie-height: 480px;
 
 .content {
-    margin-top: -90px;
+    // margin-top: -90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .content .text {
-    padding-left: 300px;
+    // padding-left: 100px;
 }
 
 .content .hoagie {
-    position: absolute;
-    top: -120px;
-    left: -30px;
-    transform: rotate(15deg);
+    // position: absolute;
+    // top: -120px;
+    // left: -30px;
+    // padding-right: 30px;
+    // padding-right: 100px;
+    transform: rotate(12deg);
 }
 
 .description {
@@ -69,14 +76,20 @@ $hoagie-height: 480px;
 }
 
 @include nondesktop {
-    .content .text {
+    .content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .content .section h1 {
         padding-left: 0px;
+        text-align: center;
     }
     .content .hoagie {
         transform: none;
         position: static;
-        margin-top: 100px;
+        // margin-top: 100px;
         margin-bottom: 20px;
+        padding-right: 0;
     }
     .content .hoagie img {
         height: 200px;

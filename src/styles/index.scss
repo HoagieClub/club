@@ -31,13 +31,15 @@ body {
     // for simpler responsiveness with mobile.
     position: relative;
     vertical-align: top;
-    max-width: $containerMaxWidth - (2 * $containerPaddingX);
-    width: 100%;
-    padding: 0 $containerPaddingX 0 $containerPaddingX;
+    // max-width: $containerMaxWidth - (2 * $containerPaddingX);
+    width: 75%;
+    // padding: 0 $containerPaddingX 0 $containerPaddingX;
 }
 
 .section {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -73,14 +75,13 @@ $button-height: 60px;
 }
 
 .button.outlined {
+    background: transparent;
+    border: 1.5px solid;
     color: $white;
-    background: $purple;
-    border: 1.5px solid #FFFFFF;
-    border-radius: 50px;
 }
 
 .button.outlined:hover {
-    background: $hover-purple;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .form-page {

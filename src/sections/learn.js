@@ -1,7 +1,7 @@
 import React from 'react'
 import ContentCard from '../components/content_card'
 import dottedLine from '../components/dotted_line.svg'
-import hoagieIcon from '../components/footer_hoagie.svg'
+import hoagieIcon from '../assets/hoagie-point.svg'
 import style from './learn.module.scss'
 import { Button } from 'evergreen-ui'
 
@@ -52,11 +52,11 @@ const togetherText = (
   In the future, we hope to provide enough resources to make contributions to Hoagie applications accessible for everyone.
   Some of our project repositories are already open-source on GitHub, and while we cannot provide contribution guidance right now,
   you can always get in contact with us if you want to add new features to our open-source repositories without being a member!
-    If you're interested in any of this, be sure to apply by September 13th!
-    <br />
+    If you're interested in any of this, be sure to apply in the Fall Semester or email us directly!
+    {/* <br />
     <br />
     <a href={'/forms/apply'} target="_blank"><Button size="large">Apply to Hoagie!</Button></a>
-    <br />
+    <br /> */}
   </>
 )
 
@@ -89,7 +89,8 @@ const Learn = () => {
         color="purple"
         text={togetherText}
       />
-      <a href="#intro"><img width="65px" src={hoagieIcon} className={style.footerIcon} /></a>
+      <a href="#header"><img width="85px" src={hoagieIcon} className={style.footerIcon} /></a>
+      
     </div>
   )
 }

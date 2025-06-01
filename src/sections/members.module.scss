@@ -1,0 +1,28 @@
+.wrapper {
+    transition: all 0.4s ease;
+    &:hover {
+        scale: 1.02;
+    }
+}
+
+.card {
+    transition: all 0.4s ease;
+    &:hover {
+      & + .socials {
+        width: 170px;
+        border-radius: 10px;
+        scale: 0.95;
+      }
+    }
+  }
+
+.socials {
+    transition: all 0.4s ease;
+    width: 0px;
+    border-radius: 100px;
+    &:hover {
+      width: 170px;
+      border-radius: 10px;
+      scale: 0.95;
+    }
+}

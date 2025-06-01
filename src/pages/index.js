@@ -11,15 +11,17 @@ import '../hoagie-ui/theme.css'
 
 export default function Home() {
   return (
-  <Theme>
-  <Layout>
-  <Nav name="club" />
-  <ClubLayout >
-    <Intro />
-    <Members />
-    <Learn />
-  </ClubLayout>
-  </Layout>
-  </Theme>
+    <Theme>
+      <Layout>
+        <a id="header">
+          <Nav name="club" />
+        </a>
+        <ClubLayout>
+          <Intro />
+          <Members />
+          <Learn />
+        </ClubLayout>
+      </Layout>
+    </Theme>
   )
 }

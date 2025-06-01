@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './intro.module.scss';
 import styleData from '../styles/variables.module.scss'
-import hoagie from '../assets/hoagie_big.svg';
+import hoagie from '../assets/hoagie-hi.svg';
 import Button from '../components/button';
 
 const Intro = ()  => {
@@ -26,9 +26,9 @@ const Intro = ()  => {
                             <p>We want to turn Princeton applications from a collection of isolated side-projects into an integrated software system.</p>
                         </div>
                         <div className={style.buttons}>
-                            <Button href={'/forms/apply'} outlined={false} external={true}>Join Us</Button>
-                            <Button href="#learn" outlined={true}>Learn More</Button>
-                            <Button href="https://hoagie.io" outlined={true}>Go Back</Button>
+                            <Button href={'/forms/apply'}>Join Us</Button>
+                            <Button href="#learn" outlined={true} color="#73FFD3">Learn More</Button>
+                            <Button href="https://hoagie.io" outlined={true} color="#FF6709">Go Back</Button>
                         </div>
                     </div>
                 </div>
