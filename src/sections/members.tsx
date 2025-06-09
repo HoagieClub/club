@@ -73,7 +73,87 @@ const mealTeam = [
     "linkedin": "https://www.linkedin.com/in/abu-ahmed-b5469b249/",
     "github": "https://github.com/abubahmed",
     "lead": true,
-    
+  },
+  {
+    "firstName": "Sadat",
+    "lastName": "Ahmed",
+    "title": "Developer",
+    "image": "https://i.imgur.com/cWpY8Lk.jpeg",
+    "linkedin": "https://www.linkedin.com/in/sadat-ahmed-495076246/",
+    "github": "https://github.com/Sadat246",
+    "lead": false,
+  },
+  {
+    "firstName": "Gabriel",
+    "lastName": "Centeno",
+    "title": "Developer",
+    "image": "https://i.imgur.com/XPzeWfV.jpeg",
+    "linkedin": "https://www.linkedin.com/in/gabriel-centeno-3487a5281/",
+    "github": "https://github.com/gabecenteno75",
+    "lead": false,
+  },
+  {
+    "firstName": "Santiago",
+    "lastName": "Criado",
+    "title": "Developer",
+    "image": "https://i.imgur.com/MncosU7.jpeg",
+    "linkedin": "https://www.linkedin.com/in/santiago-criado-91b87a31b/",
+    "github": "https://github.com/SantiHi",
+    "lead": false,
+  },
+  {
+    "firstName": "Shreyas",
+    "lastName": "Garimella",
+    "title": "Developer",
+    "image": "https://i.imgur.com/Vk72iiR.jpeg",
+    "linkedin": "https://www.linkedin.com/in/sgarimel/",
+    "github": "https://github.com/sgarimel",
+    "lead": false,
+  },
+  {
+    "firstName": "Nathan",
+    "lastName": "Kang",
+    "title": "Developer",
+    "image": "https://i.imgur.com/y9crQVk.jpeg",
+    "linkedin": "https://www.linkedin.com/in/nathanmkang/",
+    "github": "https://github.com/nathankang727",
+    "lead": false,
+  },
+  {
+    "firstName": "Rishabh",
+    "lastName": "Mohapatra",
+    "title": "Developer",
+    "image": "https://i.imgur.com/fhOcczM.jpeg",
+    "linkedin": "https://www.linkedin.com/in/rishabh-mohapatra-8657a2228/",
+    "github": "https://github.com/rmohapatra06",
+    "lead": false,
+  },
+  {
+    "firstName": "Andrew",
+    "lastName": "Xia",
+    "title": "Developer",
+    "image": "https://i.imgur.com/53PYPL3.jpeg",
+    "linkedin": "https://www.linkedin.com/in/andrew-y-xia/",
+    "github": "https://github.com/Andrew-Y-Xia",
+    "lead": false,
+  },
+  {
+    "firstName": "Aaron",
+    "lastName": "Yang",
+    "title": "Developer",
+    "image": "https://i.imgur.com/NYpxYyu.jpeg",
+    "linkedin": "https://www.linkedin.com/in/yang-aaron/",
+    "github": "https://github.com/aaronjyang",
+    "lead": false,
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Zhou",
+    "title": "Developer",
+    "image": "https://i.imgur.com/i36iN6C.jpeg",
+    "linkedin": "https://www.linkedin.com/in/zhou-emily/",
+    "github": "",
+    "lead": false,
   },
 ]
 
@@ -96,6 +176,33 @@ const planTeam = [
     "github": "https://github.com/emiilyyou",
     "lead": true,
   },
+  {
+    "firstName": "Lucy",
+    "lastName": "Chen",
+    "title": "Developer",
+    "image": "https://i.imgur.com/Y65U2Np.jpeg",
+    "linkedin": "https://www.linkedin.com/in/lucy-c1/",
+    "github": "https://github.com/lucy-c1",
+    "lead": false,
+  },
+  {
+    "firstName": "Lucy",
+    "lastName": "Wang",
+    "title": "Developer",
+    "image": "https://i.imgur.com/g3Lcyi3.png",
+    "linkedin": "https://www.linkedin.com/in/lucy-wang-0097b6229/",
+    "github": "https://github.com/lucywangj",
+    "lead": false,
+  },
+  {
+    "firstName": "Linsey",
+    "lastName": "Zhong",
+    "title": "Developer",
+    "image": "https://i.imgur.com/Upa3UCO.jpeg",
+    "linkedin": "https://www.linkedin.com/in/linsey-zhong-686a72309/",
+    "github": "https://github.com/linz283",
+    "lead": false,
+  },
 ]
 
 const mailTeam = [
@@ -107,6 +214,15 @@ const mailTeam = [
     "linkedin": "https://www.linkedin.com/in/jennyfan04/",
     "github": "https://github.com/jfmath04",
     "lead": true,
+  },
+  {
+    "firstName": "Marvin",
+    "lastName": "Chen",
+    "title": "Developer",
+    "image": "https://i.imgur.com/QiHxOHM.jpeg",
+    "linkedin": "https://www.linkedin.com/in/chen-marvin/",
+    "github": "https://github.com/marvin-chen",
+    "lead": false,
   },
 ]
 
@@ -323,8 +439,8 @@ const Members = ()  => {
             <Heading width="100%" marginLeft={30} marginTop={30} size={900}>Officers</Heading>
             <MemberSection members={officers} ignoreTint={true} />
 
-            <AppSection members={mailTeam} app={{ name:"mail", color:"#F86D01" }} />
             <AppSection members={planTeam} app={{ name:"plan", color:"#FFAC00" }} />
+            <AppSection members={mailTeam} app={{ name:"mail", color:"#F86D01" }} />
             <AppSection members={mealTeam} app={{ name:"meal", color:"#327D00" }} />
             <AppSection members={hacksTeam} app={{ name:"hacks", color:"#4f6077" }} />
 
