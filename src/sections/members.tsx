@@ -146,15 +146,6 @@ const mealTeam = [
     "github": "https://github.com/aaronjyang",
     "lead": false,
   },
-  {
-    "firstName": "Emily",
-    "lastName": "Zhou",
-    "title": "Developer",
-    "image": "https://i.imgur.com/i36iN6C.jpeg",
-    "linkedin": "https://www.linkedin.com/in/zhou-emily/",
-    "github": "",
-    "lead": false,
-  },
 ]
 
 const planTeam = [
@@ -224,6 +215,15 @@ const mailTeam = [
     "github": "https://github.com/marvin-chen",
     "lead": false,
   },
+  {
+    "firstName": "Vishva",
+    "lastName": "Ilavelan ",
+    "title": "Developer",
+    "image": "https://i.imgur.com/Y8saG2h.jpeg",
+    "linkedin": "https://www.linkedin.com/in/vishva-ilavelan-36560020b/",
+    "github": "https://github.com/VishvaIlavelan2",
+    "lead": false,
+  },
 ]
 
 const hacksTeam = [
@@ -284,7 +284,7 @@ const MemberCard = ({ member, foreground, background, ignoreTint }) =>
     {/* MAIN CONTENT */}
     <Pane 
       className={style.card}
-      backgroundColor={ignoreTint ? foreground : member.lead ? `color-mix(in srgb, ${background} 10%, ${foreground})` : `color-mix(in srgb, ${background} 8%, ${foreground})`}
+      backgroundColor={ignoreTint ? foreground : member.lead ? `color-mix(in srgb, ${background} 15%, ${foreground})` : "#F2EDF8"}
       width="330px"
       borderRadius="100px"
       padding="12px"
