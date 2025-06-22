@@ -200,7 +200,7 @@ const planTeam = [
     "title": "Developer",
     "image": "https://i.imgur.com/9A6VBIQ.jpeg",
     "linkedin": "https://www.linkedin.com/in/luke-sanborn/",
-    "github": "http://www.lukesanborn.com/",
+    "github": "https://github.com/lukesanborn",
     "lead": false,
   },
   {
@@ -209,7 +209,7 @@ const planTeam = [
     "title": "Developer",
     "image": "https://i.imgur.com/wgK68cq.jpeg",
     "linkedin": "https://www.linkedin.com/in/grace-tan-00449132a/",
-    "github": "https://www.linkedin.com/in/grace-tan-00449132a/",
+    "github": "https://github.com/gracezyt",
     "lead": false,
   },
 ]
