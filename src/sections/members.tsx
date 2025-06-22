@@ -120,15 +120,6 @@ const mealTeam = [
     "lead": false,
   },
   {
-    "firstName": "Rishabh",
-    "lastName": "Mohapatra",
-    "title": "Developer",
-    "image": "https://i.imgur.com/fhOcczM.jpeg",
-    "linkedin": "https://www.linkedin.com/in/rishabh-mohapatra-8657a2228/",
-    "github": "https://github.com/rmohapatra06",
-    "lead": false,
-  },
-  {
     "firstName": "Andrew",
     "lastName": "Xia",
     "title": "Developer",
@@ -192,6 +183,15 @@ const planTeam = [
     "image": "https://i.imgur.com/Upa3UCO.jpeg",
     "linkedin": "https://www.linkedin.com/in/linsey-zhong-686a72309/",
     "github": "https://github.com/linz283",
+    "lead": false,
+  },
+  {
+    "firstName": "Rishabh",
+    "lastName": "Mohapatra",
+    "title": "Developer",
+    "image": "https://i.imgur.com/fhOcczM.jpeg",
+    "linkedin": "https://www.linkedin.com/in/rishabh-mohapatra-8657a2228/",
+    "github": "https://github.com/rmohapatra06",
     "lead": false,
   },
   {
