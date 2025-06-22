@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Theme>
       <Layout>
-        <a id="header">
+        <a id="header" href="#header" aria-label="Navigation header">
           <Nav name="club" />
         </a>
         <ClubLayout>

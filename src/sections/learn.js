@@ -3,7 +3,7 @@ import ContentCard from '../components/content_card'
 import dottedLine from '../components/dotted_line.svg'
 import hoagieIcon from '../assets/hoagie-point.svg'
 import style from './learn.module.scss'
-import { Button } from 'evergreen-ui'
+// import { Button } from 'evergreen-ui'
 
 const introText = (
   <>
@@ -33,7 +33,7 @@ const doingText = (
     At the moment, Hoagie Club is structured into two teams: <b>Apps</b> and <b>Hacks</b>.
     <br />
     <br />
-    <b>Apps Team</b> works directly on Hoagie Applications such as <u><a target="_blank" href="https://mail.hoagie.io">Mail</a></u>.
+    <b>Apps Team</b> works directly on Hoagie Applications such as <u><a target="_blank" rel="noreferrer" href="https://mail.hoagie.io">Mail</a></u>.
     They use shared elements from the Hoagie API and our UI component library as well as write their own application-specific code. Some potential projects for the Fall semester include
     adding new features to HoagiePlan, officially launching HoagieStuff, maintaining HoagiePlan, and kicking off a brand new application project!
     <br />
@@ -67,29 +67,29 @@ const togetherTitle = 'Joining'
 const Learn = () => {
   return (
     <div id="learn" className={style.section + ' section'}>
-      <img src={dottedLine} />
+      <img src={dottedLine} alt=""/>
       <ContentCard 
         title="How is Hoagie Club run?"
         text={introText} />
-      <img src={dottedLine} />
+      <img src={dottedLine} alt=""/>
       <ContentCard
         title={learningTitle}
         color="green"
         text={learningText}
       />
-      <img src={dottedLine} />
+      <img src={dottedLine} alt=""/>
       <ContentCard
         title={doingTitle}
         color="red"
         text={doingText}
       />
-      <img src={dottedLine} />
+      <img src={dottedLine} alt=""/>
       <ContentCard
         title={togetherTitle}
         color="purple"
         text={togetherText}
       />
-      <a href="#header"><img width="85px" src={hoagieIcon} className={style.footerIcon} /></a>
+      <a href="#header"><img width="85px" src={hoagieIcon} className={style.footerIcon} alt="Wavng Hoagie Icon"/></a>
       
     </div>
   )

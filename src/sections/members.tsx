@@ -194,6 +194,24 @@ const planTeam = [
     "github": "https://github.com/linz283",
     "lead": false,
   },
+  {
+    "firstName": "Luke",
+    "lastName": "Sanborn",
+    "title": "Developer",
+    "image": "https://i.imgur.com/9A6VBIQ.jpeg",
+    "linkedin": "https://www.linkedin.com/in/luke-sanborn/",
+    "github": "http://www.lukesanborn.com/",
+    "lead": false,
+  },
+  {
+    "firstName": "Grace",
+    "lastName": "Tan",
+    "title": "Developer",
+    "image": "https://i.imgur.com/wgK68cq.jpeg",
+    "linkedin": "https://www.linkedin.com/in/grace-tan-00449132a/",
+    "github": "https://www.linkedin.com/in/grace-tan-00449132a/",
+    "lead": false,
+  },
 ]
 
 const mailTeam = [
@@ -290,6 +308,8 @@ const MemberCard = ({ member, foreground, background, ignoreTint }) =>
       padding="12px"
       paddingBottom="8px"
       position="relative"
+      // border={member.lead ? `1px solid ${background}` : undefined}
+      boxShadow={member.lead ? `inset 0 0 0 3px ${background}90` : undefined}
       zIndex={2}
     >
       <Pane float="left">
