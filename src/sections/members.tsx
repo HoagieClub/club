@@ -279,12 +279,12 @@ const leadership_2024 = [
     "github": "https://github.com/windsornguyen",
   },
   {
-    "firstName": "Ishaan",
-    "lastName": "Javali",
-    "title": "Co-President, Hacks Director",
-    "image": "https://i.imgur.com/ogd8VIq.png",
-    "linkedin": "https://www.linkedin.com/in/ishaanjavali/",
-    "github": "https://github.com/ishaanjav",
+    "firstName": "Gabriel",
+    "lastName": "Marin",
+    "title": "HoagiePlan Team Lead",
+    "image": "https://i.imgur.com/SP1qA06.jpeg",
+    "linkedin": "https://www.linkedin.com/in/gabriel-marin-/",
+    "github": "https://github.com/G-Marin",
   },
 ]
 
