@@ -69,7 +69,7 @@ const mealTeam = [
     "firstName": "Abu",
     "lastName": "Ahmed",
     "title": "HoagieMeal Lead",
-    "image": "https://i.imgur.com/qryGaZb.png",
+    "image": "https://i.imgur.com/xEdlqLI.jpeg",
     "linkedin": "https://www.linkedin.com/in/abu-ahmed-b5469b249/",
     "github": "https://github.com/abubahmed",
     "lead": true,
@@ -135,6 +135,96 @@ const mealTeam = [
     "image": "https://i.imgur.com/NYpxYyu.jpeg",
     "linkedin": "https://www.linkedin.com/in/yang-aaron/",
     "github": "https://github.com/aaronjyang",
+    "lead": false,
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Zou",
+    "title": "Developer",
+    "image": "https://i.imgur.com/J2NI7z4.jpeg",
+    "linkedin": "https://www.linkedin.com/in/emily-zou-princeton/",
+    "github": "https://github.com/ezou6",
+    "lead": false,
+  },
+  {
+    "firstName": "Yusuf",
+    "lastName": "Abdelnur",
+    "title": "Product Manager",
+    "image": "https://i.imgur.com/DomKt8N.jpeg",
+    "linkedin": "https://www.linkedin.com/in/yusuf-abdelnur/",
+    "github": "https://github.com/fusuy4",
+    "lead": false,
+  },
+  {
+    "firstName": "Mathias",
+    "lastName": "Nguyen-Van-Duong",
+    "title": "Product Manager",
+    "image": "https://i.imgur.com/xhKO6oM.jpeg",
+    "linkedin": "https://www.linkedin.com/in/mathiasnvd/",
+    "github": "https://github.com/matnvd",
+    "lead": false,
+  },
+  {
+    "firstName": "Zashaan",
+    "lastName": "Shaik",
+    "title": "Developer",
+    "image": "https://i.imgur.com/if627iA.jpeg",
+    "linkedin": "https://www.linkedin.com/in/zashaan-shaik/",
+    "github": "https://github.com/Zashaan",
+    "lead": false,
+  },
+  {
+    "firstName": "Brooke",
+    "lastName": "Xu",
+    "title": "Developer",
+    "image": "https://i.imgur.com/kRLCT0u.jpeg",
+    "linkedin": "https://www.linkedin.com/in/brooke-xu/",
+    "github": "https://github.com/brookex923",
+    "lead": false,
+  },
+  {
+    "firstName": "John",
+    "lastName": "Wu",
+    "title": "Developer",
+    "image": "https://i.imgur.com/oS84xrq.jpeg",
+    "linkedin": "https://www.linkedin.com/in/john-wu-76b62829a/",
+    "github": "https://github.com/jon3350",
+    "lead": false,
+  },
+  {
+    "firstName": "Caleb",
+    "lastName": "Kha-Uong",
+    "title": "Developer",
+    "image": "https://i.imgur.com/WZvYtQx.jpeg",
+    "linkedin": "https://www.linkedin.com/in/calebk25/",
+    "github": "https://github.com/calebK25",
+    "lead": false,
+  },
+  {
+    "firstName": "Faylinn",
+    "lastName": "Wong",
+    "title": "Developer",
+    "image": "https://i.imgur.com/pZxmcGJ.jpeg",
+    "linkedin": "https://www.linkedin.com/in/faylinn-w-005890238/",
+    "github": "https://github.com/FaylinnW",
+    "lead": false,
+  },
+  {
+    "firstName": "Angela",
+    "lastName": "Cai",
+    "title": "Developer",
+    "image": "https://i.imgur.com/NASRtwq.jpeg",
+    "linkedin": "https://www.linkedin.com/in/angcai/",
+    "github": "https://github.com/Ang-cai",
+    "lead": false,
+  },
+  {
+    "firstName": "Malachi",
+    "lastName": "Noel",
+    "title": "Developer",
+    "image": "https://i.imgur.com/MPwu9Nc.jpeg",
+    "linkedin": "https://www.linkedin.com/in/malachi-noel/",
+    "github": "https://github.com/MalachiNoel3",
     "lead": false,
   },
 ]
@@ -212,6 +302,106 @@ const planTeam = [
     "github": "https://github.com/gracezyt",
     "lead": false,
   },
+  // 2025 Fall Recruits
+  {
+    "firstName": "Emily",
+    "lastName": "Tran",
+    "title": "Product Manager",
+    "image": "https://i.imgur.com/36TdfuT.jpeg",
+    "linkedin": "https://www.linkedin.com/in/emily-tran-9571b1279/",
+    "github": "https://github.com/eemilytraan",
+    "lead": false,
+  },
+  {
+    "firstName": "Albert",
+    "lastName": "Rho",
+    "title": "Product Manager",
+    "image": "https://i.imgur.com/SzgHZRV.jpeg",
+    "linkedin": "https://www.linkedin.com/in/albert-rho-956b012b3/",
+    "github": "https://github.com/AA5235",
+    "lead": false,
+  },
+  {
+    "firstName": "Grace",
+    "lastName": "Ding",
+    "title": "Developer",
+    "image": "https://i.imgur.com/jtoqTn7.jpeg",
+    "linkedin": "https://www.linkedin.com/in/gracetding/",
+    "github": "https://github.com/gracetding",
+    "lead": false,
+  },
+  {
+    "firstName": "Niyathi",
+    "lastName": "Kukkapalli",
+    "title": "Developer",
+    "image": "https://i.imgur.com/eJ8PUh1.jpeg",
+    "linkedin": "https://www.linkedin.com/in/niyathi-kukkapalli-9394bb272/",
+    "github": "https://github.com/niyathikukkapalli",
+    "lead": false,
+  },
+  {
+    "firstName": "Ella",
+    "lastName": "Kim",
+    "title": "Developer",
+    "image": "https://i.imgur.com/yk1lXeq.jpeg",
+    "linkedin": "https://www.linkedin.com/in/kim-ella/",
+    "github": "https://github.com/ellajkim",
+    "lead": false,
+  },
+  {
+    "firstName": "Patrick",
+    "lastName": "Fu",
+    "title": "Developer",
+    "image": "https://i.imgur.com/Ity0JG4.jpeg",
+    "linkedin": "https://www.linkedin.com/in/patrickfu25/",
+    "github": "https://github.com/trickfu",
+    "lead": false,
+  },
+  {
+    "firstName": "Phu",
+    "lastName": "Douong",
+    "title": "Developer",
+    "image": "https://i.imgur.com/gDVpQDM.jpeg",
+    "linkedin": "https://www.linkedin.com/in/phu-duong/",
+    "github": "https://github.com/phuhduong",
+    "lead": false,
+  },
+  {
+    "firstName": "Gary",
+    "lastName": "Yang",
+    "title": "Developer",
+    "image": "https://i.imgur.com/l1Usnk5.jpeg",
+    "linkedin": "https://www.linkedin.com/in/gary-yang-4a5ab9292/",
+    "github": "https://github.com/gyang148",
+    "lead": false,
+  },
+  {
+    "firstName": "Shawn",
+    "lastName": "Li",
+    "title": "Developer",
+    "image": "https://i.imgur.com/UxTrdzX.jpeg",
+    "linkedin": "https://www.linkedin.com/in/shawnli14/",
+    "github": "https://github.com/shawnli14",
+    "lead": false,
+  },
+  {
+    "firstName": "Luke",
+    "lastName": "Schreiber",
+    "title": "Developer",
+    "image": "https://i.imgur.com/XpsEAvn.jpeg",
+    "linkedin": "https://www.linkedin.com/in/lukekschreiber/",
+    "github": "https://github.com/ls1881",
+    "lead": false,
+  },
+  {
+    "firstName": "David",
+    "lastName": "Lee",
+    "title": "Developer",
+    "image": "https://i.imgur.com/pSQSQb8.jpeg",
+    "linkedin": "https://www.linkedin.com/in/davidlee08/",
+    "github": "https://github.com/dl6549",
+    "lead": false,
+  },
 ]
 
 const mailTeam = [
@@ -235,11 +425,284 @@ const mailTeam = [
   },
   {
     "firstName": "Vishva",
-    "lastName": "Ilavelan ",
+    "lastName": "Ilavelan",
     "title": "Developer",
     "image": "https://i.imgur.com/Y8saG2h.jpeg",
     "linkedin": "https://www.linkedin.com/in/vishva-ilavelan-36560020b/",
     "github": "https://github.com/VishvaIlavelan2",
+    "lead": false,
+  },
+  {
+    "firstName": "Allison",
+    "lastName": "Lee",
+    "title": "Product Manager",
+    "image": "https://i.imgur.com/3SPqM7z.jpeg",
+    "linkedin": "https://www.linkedin.com/in/allisonelee/",
+    "github": "https://github.com/allisonelee",
+    "lead": false,
+  },
+  {
+    "firstName": "Chloe",
+    "lastName": "Lau",
+    "title": "Product Manager",
+    "image": "https://i.imgur.com/BVrnu64.jpeg",
+    "linkedin": "https://www.linkedin.com/in/chloe-hc-lau/",
+    "github": "https://github.com/lauechlo",
+    "lead": false,
+  },
+  {
+    "firstName": "Joseph",
+    "lastName": "Tso",
+    "title": "Developer",
+    "image": "https://i.imgur.com/RWJpB8T.jpeg",
+    "linkedin": "https://www.linkedin.com/in/josephtso/",
+    "github": "https://github.com/jt914",
+    "lead": false,
+  },
+  {
+    "firstName": "Jake",
+    "lastName": "Tran",
+    "title": "Developer",
+    "image": "https://i.imgur.com/jHShkvX.jpeg",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/Jtech3029",
+    "lead": false,
+  },
+  {
+    "firstName": "Grace",
+    "lastName": "Wang",
+    "title": "Developer",
+    "image": "https://i.imgur.com/0Rt86zU.jpeg",
+    "linkedin": "https://www.linkedin.com/in/grace-wang-85b4122a8/",
+    "github": "https://github.com/gw4249",
+    "lead": false,
+  },
+  {
+    "firstName": "Alvin",
+    "lastName": "Sze",
+    "title": "Developer",
+    "image": "https://i.imgur.com/mZy9kzp.jpeg",
+    "linkedin": "https://www.linkedin.com/in/alvinsze/",
+    "github": "https://github.com/asze17",
+    "lead": false,
+  },
+  {
+    "firstName": "Aayush",
+    "lastName": "Mitra",
+    "title": "Developer",
+    "image": "https://i.imgur.com/JJSV3B5.jpeg",
+    "linkedin": "https://www.linkedin.com/in/aayushmitra121/",
+    "github": "https://github.com/aayush-mitra",
+    "lead": false,
+  },
+  {
+    "firstName": "Oliver",
+    "lastName": "Cho",
+    "title": "Developer",
+    "image": "https://i.imgur.com/EoV8ydh.jpeg",
+    "linkedin": "https://www.linkedin.com/in/oliver-s-cho/",
+    "github": "https://github.com/olivcho",
+    "lead": false,
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Wahid",
+    "title": "Developer",
+    "image": "https://i.imgur.com/TFcPAG4.jpeg",
+    "linkedin": "https://www.linkedin.com/in/adam-wahid-34898a319/",
+    "github": "https://github.com/pentrail",
+    "lead": false,
+  },
+  {
+    "firstName": "Christal",
+    "lastName": "Chen",
+    "title": "Developer",
+    "image": "https://i.imgur.com/ZshQ3Fj.jpeg",
+    "linkedin": "https://www.linkedin.com/in/christalchen/",
+    "github": "https://github.com/12chenec",
+    "lead": false,
+  },
+  {
+    "firstName": "Prishaa",
+    "lastName": "Kapasi",
+    "title": "Developer",
+    "image": "https://i.imgur.com/mQ47W5o.jpeg",
+    "linkedin": "https://www.linkedin.com/in/prishaa-kapasi-87b73825b/",
+    "github": "https://github.com/prishaakapasi",
+    "lead": false,
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Lau",
+    "title": "Developer",
+    "image": "https://i.imgur.com/KQAU12z.jpeg",
+    "linkedin": "https://www.linkedin.com/in/anna-lau-605964299/",
+    "github": "https://github.com/anna-1au",
+    "lead": false,
+  },
+  {
+    "firstName": "Zhao Song",
+    "lastName": "Zhou",
+    "title": "Developer",
+    "image": "https://i.imgur.com/JeUh9dc.jpeg",
+    "linkedin": "https://www.linkedin.com/in/zhao-song-zhou/",
+    "github": "https://github.com/ZhaoSongZh7",
+    "lead": false,
+  },
+  {
+    "firstName": "Nicholas",
+    "lastName": "Hagedorn",
+    "title": "Developer",
+    "image": "https://i.imgur.com/vywK1fP.jpeg",
+    "linkedin": "https://www.linkedin.com/in/nicholashagedorn/",
+    "github": "https://github.com/Nockname",
+    "lead": false,
+  },
+  {
+    "firstName": "Sevastian",
+    "lastName": "Venegas",
+    "title": "Developer",
+    "image": "https://i.imgur.com/I6xeb0k.jpeg",
+    "linkedin": "https://www.linkedin.com/in/sevastian-venegas/",
+    "github": "https://github.com/sevivenegas",
+    "lead": false,
+  },
+]
+
+const sparksTeam = [
+  {
+    "firstName": "Issac",
+    "lastName": "Li",
+    "title": "HoagieSparks Lead",
+    "image": "https://i.imgur.com/BG2eTIW.png",
+    "linkedin": "https://www.linkedin.com/in/issactli/",
+    "github": "https://github.com/issacli-0821",
+    "lead": true,
+  },
+  {
+    "firstName": "Samantha",
+    "lastName": "Nosanchuk",
+    "title": "Product Manager",
+    "image": "https://i.imgur.com/JuX7kjX.jpeg",
+    "linkedin": "https://www.linkedin.com/in/samanthanicolenosanchuk/",
+    "github": "https://github.com/samanthanosanchuk",
+    "lead": false,
+  },
+  {
+    "firstName": "Gauri",
+    "lastName": "Kshettry",
+    "title": "Product Manager",
+    "image": "https://i.imgur.com/61oQkDl.jpeg",
+    "linkedin": "https://www.linkedin.com/in/gauri-kshettry-b6a07a1b5/",
+    "github": "https://github.com/gk7494",
+    "lead": false,
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Jensen",
+    "title": "Developer",
+    "image": "https://i.imgur.com/WIQMwQK.jpeg",
+    "linkedin": "https://www.linkedin.com/in/ryan-avery-jensen/",
+    "github": "https://github.com/RyanAJensen",
+    "lead": false,
+  },
+  {
+    "firstName": "Timothy",
+    "lastName": "Li",
+    "title": "Developer",
+    "image": "https://i.imgur.com/sLgXMXx.jpeg",
+    "linkedin": "https://www.linkedin.com/in/timothy-li-1236722a6/",
+    "github": "https://github.com/timothyli1331",
+    "lead": false,
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Belouad",
+    "title": "Developer",
+    "image": "https://i.imgur.com/U5XnPnt.jpeg",
+    "linkedin": "https://www.linkedin.com/in/adambelouad/",
+    "github": "https://github.com/adambelouad",
+    "lead": false,
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "Wang",
+    "title": "Developer",
+    "image": "https://i.imgur.com/EiiCrQh.jpeg",
+    "linkedin": "https://www.linkedin.com/in/tom-wang-105a6722b/",
+    "github": "https://github.com/tom05919",
+    "lead": false,
+  },
+  {
+    "firstName": "Hellen",
+    "lastName": "Luo",
+    "title": "Developer",
+    "image": "https://i.imgur.com/7tbR6cr.jpeg",
+    "linkedin": "https://www.linkedin.com/in/hellen-luo/",
+    "github": "https://github.com/hellenlluo",
+    "lead": false,
+  },
+  {
+    "firstName": "Maribel",
+    "lastName": "Crespo",
+    "title": "Developer",
+    "image": "https://i.imgur.com/gwB46Iy.jpeg",
+    "linkedin": "https://www.linkedin.com/in/maribel-crespo-134a33284/",
+    "github": "https://github.com/mar-crespo",
+    "lead": false,
+  },
+  {
+    "firstName": "Ray",
+    "lastName": "Kong",
+    "title": "Developer",
+    "image": "https://i.imgur.com/0HMLlyJ.jpeg",
+    "linkedin": "https://www.linkedin.com/in/raykongcs/",
+    "github": "https://github.com/raykong06",
+    "lead": false,
+  },
+  {
+    "firstName": "David",
+    "lastName": "Liu",
+    "title": "Developer",
+    "image": "https://i.imgur.com/Jxx7T65.jpeg",
+    "linkedin": "https://www.linkedin.com/in/david-liu-71398523a/",
+    "github": "https://github.com/davidweizhongliu",
+    "lead": false,
+  },
+  {
+    "firstName": "Sai",
+    "lastName": "Nallani",
+    "title": "Developer",
+    "image": "https://i.imgur.com/nAhEq92.jpeg",
+    "linkedin": "https://www.linkedin.com/in/sai-nallani-6a5061262/",
+    "github": "https://github.com/sai-nallani",
+    "lead": false,
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Muehlberger",
+    "title": "Developer",
+    "image": "https://i.imgur.com/BJIKCcN.jpeg",
+    "linkedin": "https://www.linkedin.com/in/charlesmuehl/",
+    "github": "https://github.com/charlespers",
+    "lead": false,
+  },
+  {
+    "firstName": "Laahini",
+    "lastName": "Addagatla",
+    "title": "Developer",
+    "image": "https://i.imgur.com/YjjHQik.jpeg",
+    "linkedin": "https://www.linkedin.com/in/laahini-a-277906271/",
+    "github": "https://github.com/Laahini",
+    "lead": false,
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Guo",
+    "title": "Developer",
+    "image": "https://i.imgur.com/zUnSDle.jpeg",
+    "linkedin": "https://www.linkedin.com/in/eric-guo1/",
+    "github": "https://github.com/ericguo202",
     "lead": false,
   },
 ]
@@ -288,6 +751,35 @@ const leadership_2024 = [
   },
 ]
 
+const leadership_2023 = [
+  {
+    "firstName": "Liam",
+    "lastName": "Esparraguera",
+    "title": "President",
+    "image": "https://i.imgur.com/qrQoCgX.jpeg",
+    "linkedin": "https://www.linkedin.com/in/liamesparraguera/",
+    "github": "https://github.com/lfesp",
+  },
+  {
+    "firstName": "Dennis",
+    "lastName": "Jacob",
+    "title": "Vice President",
+    "image": "https://i.imgur.com/3lQWdhx.jpeg",
+    "linkedin": "https://www.linkedin.com/in/dennis-george-jacob/",
+    "github": "https://github.com/djapp18",
+  },
+]
+
+const leadership_2020 = [
+  {
+    "firstName": "Gagik",
+    "lastName": "Amaryan",
+    "title": "Founder, President",
+    "image": "https://i.imgur.com/Wadtxdd.jpeg",
+    "linkedin": "https://www.linkedin.com/in/gagikam/",
+    "github": "https://github.com/gagik/",
+  },
+]
 
 
 const MemberCard = ({ member, foreground, background, ignoreTint }) => 
@@ -325,7 +817,7 @@ const MemberCard = ({ member, foreground, background, ignoreTint }) =>
         textAlign="center"
         width="200px"
       >
-        <Heading size={700} lineHeight="35px" >{member.firstName} {member.lastName}</Heading>
+        <Heading size={700} lineHeight="22px" paddingBottom="10px" >{member.firstName} {member.lastName}</Heading>
         {/* <br /> */}
         <Text width="150px" size={500}>{member.title}</Text>
       </Pane>
@@ -404,7 +896,7 @@ const AppSection = ({ members, app } ) =>
 
 const PastSection = ({ members, year } ) => 
   <Pane
-    width="100%"
+    // width="100%"
     position="relative"
     display="flex"
     flexWrap="wrap"
@@ -412,6 +904,8 @@ const PastSection = ({ members, year } ) =>
     borderRadius="10px"
     paddingTop="20px"
     paddingBottom="10px"
+    paddingRight="30px"
+    marginBottom="20px"
     style={{ transform: "scale(0.9)" }}
   >
     <h2
@@ -462,10 +956,13 @@ const Members = ()  => {
             <AppSection members={planTeam} app={{ name:"plan", color:"#FFAC00" }} />
             <AppSection members={mailTeam} app={{ name:"mail", color:"#F86D01" }} />
             <AppSection members={mealTeam} app={{ name:"meal", color:"#327D00" }} />
+            <AppSection members={sparksTeam} app={{ name:"sparks", color:"#3581B8" }} />
             <AppSection members={hacksTeam} app={{ name:"hacks", color:"#4f6077" }} />
 
             <Heading width="100%" marginLeft={30} marginTop={100} marginBottom={20} size={900}>Past Leadership</Heading>
-            <PastSection members={leadership_2024} year="2024" />
+            <PastSection members={leadership_2024} year="2024-2025" />
+            <PastSection members={leadership_2023} year="2023-2024" />
+            <PastSection members={leadership_2020} year="2020-2022" />
           </Pane>
         </Pane>
     );
