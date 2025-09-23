@@ -585,7 +585,8 @@ const sparksTeam = [
     "title": "HoagieSparks Co-Lead",
     "image": "https://i.imgur.com/kUbzXL9.png",
     "linkedin": "https://www.linkedin.com/in/spencer-doyle3/",
-    "github": "https://github.com/Spencer04Hire"
+    "github": "https://github.com/Spencer04Hire",
+    "lead": true,
   },
   {
     "firstName": "Samantha",
