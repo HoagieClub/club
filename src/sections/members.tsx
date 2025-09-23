@@ -573,11 +573,19 @@ const sparksTeam = [
   {
     "firstName": "Issac",
     "lastName": "Li",
-    "title": "HoagieSparks Lead",
+    "title": "HoagieSparks Co-Lead",
     "image": "https://i.imgur.com/BG2eTIW.png",
     "linkedin": "https://www.linkedin.com/in/issactli/",
     "github": "https://github.com/issacli-0821",
     "lead": true,
+  },
+  {
+    "firstName": "Spencer",
+    "lastName": "Doyle",
+    "title": "HoagieSparks Co-Lead",
+    "image": "https://i.imgur.com/kUbzXL9.png",
+    "linkedin": "https://www.linkedin.com/in/spencer-doyle3/",
+    "github": "https://github.com/Spencer04Hire"
   },
   {
     "firstName": "Samantha",
