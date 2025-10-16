@@ -712,7 +712,7 @@ const hacksTeam = [
     {
       "firstName": "Chloe",
       "lastName": "Lau",
-      "title": "Pricipal",
+      "title": "Principal",
       "image": "https://i.imgur.com/BVrnu64.jpeg",
       "linkedin": "https://www.linkedin.com/in/chloe-hc-lau/",
       "github": "https://github.com/lauechlo",
