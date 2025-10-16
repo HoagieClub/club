@@ -14,14 +14,6 @@ const officers = [
     "github": "https://github.com/issacli-0821"
   },
   {
-    "firstName": "Cathy",
-    "lastName": "Di",
-    "title": "Co-President",
-    "image": "https://i.imgur.com/99D0fOy.png",
-    "linkedin": "https://www.linkedin.com/in/catherine-di-559791254/",
-    "github": "https://github.com/Maoshu413"
-  },
-  {
     "firstName": "Spencer",
     "lastName": "Doyle",
     "title": "Co-President",
@@ -261,7 +253,7 @@ const planTeam = [
     "firstName": "Lucy",
     "lastName": "Wang",
     "title": "Developer",
-    "image": "https://i.imgur.com/g3Lcyi3.png",
+    "image": "https://i.imgur.com/368JX3p.jpeg",
     "linkedin": "https://www.linkedin.com/in/lucy-wang-0097b6229/",
     "github": "https://github.com/lucywangj",
     "lead": false,
@@ -718,17 +710,13 @@ const sparksTeam = [
 
 const hacksTeam = [
     {
-      "firstName": "Ishaan",
-      "lastName": "Javali",
-      "title": "Director",
-      "image": "https://i.imgur.com/ogd8VIq.png",
-      "lead": true,
-    },
-    {
-      "firstName": "Cathy",
-      "lastName": "Di",
-      "title": "Principal",
-      "image": "https://i.imgur.com/99D0fOy.png",
+      "firstName": "Chloe",
+      "lastName": "Lau",
+      "title": "Pricipal",
+      "image": "https://i.imgur.com/BVrnu64.jpeg",
+      "linkedin": "https://www.linkedin.com/in/chloe-hc-lau/",
+      "github": "https://github.com/lauechlo",
+      "lead": false,
     },
 ]
 
@@ -749,6 +737,14 @@ const leadership_2024 = [
     "image": "https://i.imgur.com/hZh8iTf.png",
     "linkedin": "https://www.linkedin.com/in/windsornguyen/",
     "github": "https://github.com/windsornguyen",
+  },
+  {
+    "firstName": "Cathy",
+    "lastName": "Di",
+    "title": "Co-President (Spring)",
+    "image": "https://i.imgur.com/99D0fOy.png",
+    "linkedin": "https://www.linkedin.com/in/catherine-di-559791254/",
+    "github": "https://github.com/Maoshu413"
   },
   {
     "firstName": "Gabriel",
