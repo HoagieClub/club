@@ -57,6 +57,11 @@ const togetherText = (
     <br />
     <a href={'/forms/apply'} target="_blank"><Button size="large">Apply to Hoagie!</Button></a>
     <br /> */}
+    <br />
+    <br />
+    <div style={{ fontSize: '11px', lineHeight: '1.5', fontStyle: 'italic', textAlign: 'justify' }}>
+      This organization is open to all Princeton University students interested in supporting our organization's mission, regardless of identity, such as race, sex, ethnicity, national origin, or other protected characteristics.
+    </div>
   </>
 )
 
