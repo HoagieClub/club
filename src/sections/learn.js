@@ -52,7 +52,7 @@ const togetherText = (
   In the future, we hope to provide enough resources to make contributions to Hoagie applications accessible for everyone.
   Some of our project repositories are already open-source on GitHub, and while we cannot provide contribution guidance right now,
   you can always get in contact with us if you want to add new features to our open-source repositories without being a member!
-    If you're interested in any of this, be sure to apply in the Fall Semester or email us directly!
+    If you're interested in any of this, be sure to apply or email us directly!
     {/* <br />
     <br />
     <a href={'/forms/apply'} target="_blank"><Button size="large">Apply to Hoagie!</Button></a>
