@@ -79,7 +79,7 @@ const mealTeam = [
     "firstName": "Mathias",
     "lastName": "Nguyen-Van-Duong",
     "title": "Product Manager",
-    "image": "https://i.imgur.com/xhKO6oM.jpeg",
+    "image": "https://i.imgur.com/MrWM4K8.jpeg",
     "linkedin": "https://www.linkedin.com/in/mathiasnvd/",
     "github": "https://github.com/matnvd",
     "lead": false,
