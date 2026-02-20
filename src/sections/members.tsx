@@ -362,7 +362,7 @@ const planTeam = [
     "lastName": "Chen",
     "title": "Developer",
     "image": "https://i.imgur.com/Sk3IU3z.jpeg",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/eric--c/",
     "github": "https://github.com/chap2457",
     "lead": false,
   },
