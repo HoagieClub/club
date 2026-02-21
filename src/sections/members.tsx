@@ -508,7 +508,7 @@ const mailTeam = [
     "firstName": "Chloe",
     "lastName": "Chen",
     "title": "Developer",
-    "image": "https://i.imgur.com/2nQbCFH.jpeg",
+    "image": "https://i.imgur.com/HoM0S1V.jpeg",
     "linkedin": "",
     "github": "https://github.com/celloii",
     "lead": false,
