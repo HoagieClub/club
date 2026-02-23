@@ -509,7 +509,7 @@ const mailTeam = [
     "lastName": "Chen",
     "title": "Developer",
     "image": "https://i.imgur.com/HoM0S1V.jpeg",
-    "linkedin": "www.linkedin.com/in/chloe-chen-7388243b2/",
+    "linkedin": "https://www.linkedin.com/in/chloe-chen-7388243b2/",
     "github": "https://github.com/celloii",
     "lead": false,
   },
