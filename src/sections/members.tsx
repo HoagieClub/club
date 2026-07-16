@@ -9,9 +9,10 @@ const officers = [
     "firstName": "Hannah",
     "lastName": "Choi",
     "title": "Co-President",
-    "image": "https://i.imgur.com/wbsVpmE.jpeg",
+    "image": "https://imgur.com/xbzmDyx.jpeg",
     "linkedin": "https://www.linkedin.com/in/hannah-choi/",
-    "github": "https://github.com/hannahchoi"
+    "github": "https://github.com/hannahchoi",
+    "coPresident": true
   },
   {
     "firstName": "Emily",
@@ -19,7 +20,8 @@ const officers = [
     "title": "Co-President",
     "image": "https://i.imgur.com/jwAX2NZ.jpeg",
     "linkedin": "https://www.linkedin.com/in/emilyyou220/",
-    "github": "https://github.com/emiilyyou"
+    "github": "https://github.com/emiilyyou",
+    "coPresident": true
   },
   {
     "firstName": "Abu",
@@ -27,13 +29,14 @@ const officers = [
     "title": "Co-President",
     "image": "https://i.imgur.com/xEdlqLI.jpeg",
     "linkedin": "https://www.linkedin.com/in/abu-ahmed-b5469b249/",
-    "github": "https://github.com/abubahmed"
+    "github": "https://github.com/abubahmed",
+    "coPresident": true
   },
   {
     "firstName": "Zhao Song",
     "lastName": "Zhou",
     "title": "Treasurer",
-    "image": "https://i.imgur.com/JeUh9dc.jpeg",
+    "image": "https://imgur.com/usf8Gam.jpeg",
     "linkedin": "https://www.linkedin.com/in/zhao-song-zhou/",
     "github": "https://github.com/ZhaoSongZh7"
   },
@@ -41,7 +44,7 @@ const officers = [
     "firstName": "Chloe",
     "lastName": "Lau",
     "title": "Head of Product",
-    "image": "https://i.imgur.com/BVrnu64.jpeg",
+    "image": "https://imgur.com/uYIDMqa.jpeg",
     "linkedin": "https://www.linkedin.com/in/chloe-hc-lau/",
     "github": "https://github.com/lauechlo"
   },
@@ -49,7 +52,7 @@ const officers = [
     "firstName": "Eric",
     "lastName": "Guo",
     "title": "Head of Marketing",
-    "image": "https://i.imgur.com/zUnSDle.jpeg",
+    "image": "https://imgur.com/dYyETCn.jpeg",
     "linkedin": "https://www.linkedin.com/in/eric-guo1/",
     "github": "https://github.com/ericguo202"
   },
@@ -57,7 +60,7 @@ const officers = [
     "firstName": "Adam",
     "lastName": "Belouad",
     "title": "Head of Social",
-    "image": "https://i.imgur.com/U5XnPnt.jpeg",
+    "image": "https://imgur.com/AxZaRGp.jpeg",
     "linkedin": "https://www.linkedin.com/in/adambelouad/",
     "github": "https://github.com/adambelouad"
   },
@@ -67,8 +70,8 @@ const mealTeam = [
   {
     "firstName": "Mathias",
     "lastName": "Nguyen-Van-Duong",
-    "title": "Product Manager",
-    "image": "https://i.imgur.com/MrWM4K8.jpeg",
+    "title": "Team Lead, Product Manager",
+    "image": "https://imgur.com/GfmJwSm.jpeg",
     "linkedin": "https://www.linkedin.com/in/mathiasnvd/",
     "github": "https://github.com/matnvd",
     "lead": true,
@@ -76,7 +79,7 @@ const mealTeam = [
   {
     "firstName": "Micheal",
     "lastName": "Huang",
-    "title": "Developer",
+    "title": "Team Lead",
     "image": "https://i.imgur.com/uXpqyhZ.jpeg",
     "linkedin": "https://www.linkedin.com/in/micheal-huang-5636252a6/",
     "github": "https://github.com/astoppop",
@@ -95,7 +98,7 @@ const mealTeam = [
     "firstName": "Christal",
     "lastName": "Chen",
     "title": "Developer",
-    "image": "https://i.imgur.com/ZshQ3Fj.jpeg",
+    "image": "https://imgur.com/beIz48E.jpeg",
     "linkedin": "https://www.linkedin.com/in/christalchen/",
     "github": "https://github.com/12chenec",
     "lead": false,
@@ -104,7 +107,7 @@ const mealTeam = [
     "firstName": "Eric",
     "lastName": "Chen",
     "title": "Developer",
-    "image": "https://i.imgur.com/jSxrEwJ.jpeg",
+    "image": "https://imgur.com/37D825n.jpeg",
     "linkedin": "https://www.linkedin.com/in/ericjiajiechen/",
     "github": "https://github.com/EricChen06",
     "lead": false,
@@ -140,7 +143,7 @@ const mealTeam = [
     "firstName": "Malachi",
     "lastName": "Noel",
     "title": "Developer",
-    "image": "https://i.imgur.com/MPwu9Nc.jpeg",
+    "image": "https://imgur.com/MzPafHQ.jpeg",
     "linkedin": "https://www.linkedin.com/in/malachi-noel/",
     "github": "https://github.com/MalachiNoel3",
     "lead": false,
@@ -158,7 +161,7 @@ const mealTeam = [
     "firstName": "John",
     "lastName": "Wu",
     "title": "Developer",
-    "image": "https://i.imgur.com/oS84xrq.jpeg",
+    "image": "https://imgur.com/PVflKAz.jpeg",
     "linkedin": "https://www.linkedin.com/in/john-wu-76b62829a/",
     "github": "https://github.com/jon3350",
     "lead": false,
@@ -167,6 +170,7 @@ const mealTeam = [
     "firstName": "Andrew",
     "lastName": "Xia",
     "title": "Developer",
+    "image": "https://imgur.com/NrJWbZX.jpeg",
     "linkedin": "https://www.linkedin.com/in/andrew-y-xia/",
     "github": "https://github.com/andrew-y-xia",
     "lead": false,
@@ -175,7 +179,7 @@ const mealTeam = [
     "firstName": "Brooke",
     "lastName": "Xu",
     "title": "Developer",
-    "image": "https://i.imgur.com/kRLCT0u.jpeg",
+    "image": "https://imgur.com/TIMnDbO.jpeg",
     "linkedin": "https://www.linkedin.com/in/brooke-xu/",
     "github": "https://github.com/brookex923",
     "lead": false,
@@ -186,8 +190,8 @@ const planTeam = [
   {
     "firstName": "Gary",
     "lastName": "Yang",
-    "title": "Developer",
-    "image": "https://i.imgur.com/l1Usnk5.jpeg",
+    "title": "Team Lead",
+    "image": "https://imgur.com/p5fw3Fi.jpeg",
     "linkedin": "https://www.linkedin.com/in/gary-yang-4a5ab9292/",
     "github": "https://github.com/gyang148",
     "lead": true,
@@ -195,7 +199,7 @@ const planTeam = [
   {
     "firstName": "Rishabh",
     "lastName": "Mohapatra",
-    "title": "Developer",
+    "title": "Team Lead",
     "image": "https://i.imgur.com/fhOcczM.jpeg",
     "linkedin": "https://www.linkedin.com/in/rishabh-mohapatra-8657a2228/",
     "github": "https://github.com/rmohapatra06",
@@ -204,8 +208,8 @@ const planTeam = [
   {
     "firstName": "Albert",
     "lastName": "Rho",
-    "title": "Product Manager",
-    "image": "https://i.imgur.com/SzgHZRV.jpeg",
+    "title": "Team Lead, Product Manager",
+    "image": "https://imgur.com/UckYPph.jpeg",
     "linkedin": "https://www.linkedin.com/in/albert-rho-956b012b3/",
     "github": "https://github.com/AA5235",
     "lead": true,
@@ -213,8 +217,8 @@ const planTeam = [
   {
     "firstName": "Stephy",
     "lastName": "Zhang",
-    "title": "Product Manager",
-    "image": "https://i.imgur.com/MJpaXgU.jpeg",
+    "title": "Team Lead, Product Manager",
+    "image": "https://imgur.com/Vk7ShnM.jpeg",
     "linkedin": "https://www.linkedin.com/in/stephy-zhang/",
     "github": "https://github.com/IAmNotStep",
     "lead": true,
@@ -241,7 +245,7 @@ const planTeam = [
     "firstName": "Phu",
     "lastName": "Duong",
     "title": "Developer",
-    "image": "https://i.imgur.com/gDVpQDM.jpeg",
+    "image": "https://imgur.com/5rZUc0t.jpeg",
     "linkedin": "https://www.linkedin.com/in/phu-duong/",
     "github": "https://github.com/phuhduong",
     "lead": false,
@@ -250,7 +254,7 @@ const planTeam = [
     "firstName": "Patrick",
     "lastName": "Fu",
     "title": "Developer",
-    "image": "https://i.imgur.com/Ity0JG4.jpeg",
+    "image": "https://imgur.com/DXTD3sj.jpeg",
     "linkedin": "https://www.linkedin.com/in/patrickfu25/",
     "github": "https://github.com/trickfu",
     "lead": false,
@@ -268,7 +272,7 @@ const planTeam = [
     "firstName": "Anna",
     "lastName": "Lau",
     "title": "Developer",
-    "image": "https://i.imgur.com/KQAU12z.jpeg",
+    "image": "https://imgur.com/r6YCiYk.jpeg",
     "linkedin": "https://www.linkedin.com/in/anna-lau-605964299/",
     "github": "https://github.com/anna-1au",
     "lead": false,
@@ -277,7 +281,7 @@ const planTeam = [
     "firstName": "David",
     "lastName": "Lee",
     "title": "Developer",
-    "image": "https://i.imgur.com/pSQSQb8.jpeg",
+    "image": "https://imgur.com/4VgrTG0.jpeg",
     "linkedin": "https://www.linkedin.com/in/davidlee08/",
     "github": "https://github.com/dl6549",
     "lead": false,
@@ -295,7 +299,7 @@ const planTeam = [
     "firstName": "Sevastian",
     "lastName": "Venegas",
     "title": "Developer",
-    "image": "https://i.imgur.com/I6xeb0k.jpeg",
+    "image": "https://imgur.com/hCR33Oo.jpeg",
     "linkedin": "https://www.linkedin.com/in/sevastian-venegas/",
     "github": "https://github.com/sevivenegas",
     "lead": false,
@@ -315,7 +319,7 @@ const mailTeam = [
   {
     "firstName": "Alvin",
     "lastName": "Sze",
-    "title": "Developer",
+    "title": "Team Lead",
     "image": "https://i.imgur.com/mZy9kzp.jpeg",
     "linkedin": "https://www.linkedin.com/in/alvinsze/",
     "github": "https://github.com/asze17",
@@ -324,8 +328,8 @@ const mailTeam = [
   {
     "firstName": "Zhao Song",
     "lastName": "Zhou",
-    "title": "Developer",
-    "image": "https://i.imgur.com/JeUh9dc.jpeg",
+    "title": "Team Lead",
+    "image": "https://imgur.com/usf8Gam.jpeg",
     "linkedin": "https://www.linkedin.com/in/zhao-song-zhou/",
     "github": "https://github.com/ZhaoSongZh7",
     "lead": true,
@@ -361,7 +365,7 @@ const mailTeam = [
     "firstName": "Helen",
     "lastName": "Hui",
     "title": "Product Manager",
-    "image": "https://i.imgur.com/kc4WIyv.jpeg",
+    "image": "https://imgur.com/LL42vrV.jpeg",
     "linkedin": "https://www.linkedin.com/in/helen-hui-7125b929b/",
     "github": "https://github.com/ilovehhhyn",
     "lead": false,
@@ -370,7 +374,7 @@ const mailTeam = [
     "firstName": "Allison",
     "lastName": "Lee",
     "title": "Product Manager",
-    "image": "https://i.imgur.com/3SPqM7z.jpeg",
+    "image": "https://imgur.com/IYdwYoZ.jpeg",
     "linkedin": "https://www.linkedin.com/in/allisonelee/",
     "github": "https://github.com/allisonelee",
     "lead": false,
@@ -379,7 +383,7 @@ const mailTeam = [
     "firstName": "Niv",
     "lastName": "Levy",
     "title": "Developer",
-    "image": "https://i.imgur.com/XbLGo6d.jpeg",
+    "image": "https://imgur.com/12QhSTr.jpeg",
     "linkedin": "https://www.linkedin.com/in/niv-levy-012685258/",
     "github": "https://github.com/NivLevy-gh",
     "lead": false,
@@ -399,7 +403,7 @@ const sparksTeam = [
   {
     "firstName": "Maribel",
     "lastName": "Crespo",
-    "title": "Developer",
+    "title": "Team Lead",
     "image": "https://i.imgur.com/gwB46Iy.jpeg",
     "linkedin": "https://www.linkedin.com/in/maribel-crespo-134a33284/",
     "github": "https://github.com/mar-crespo",
@@ -408,8 +412,8 @@ const sparksTeam = [
   {
     "firstName": "Ray",
     "lastName": "Kong",
-    "title": "Developer",
-    "image": "https://i.imgur.com/0HMLlyJ.jpeg",
+    "title": "Team Lead",
+    "image": "https://imgur.com/QgF5bTc.jpeg",
     "linkedin": "https://www.linkedin.com/in/raykongcs/",
     "github": "https://github.com/raykong06",
     "lead": true,
@@ -417,17 +421,17 @@ const sparksTeam = [
   {
     "firstName": "Eric",
     "lastName": "Guo",
-    "title": "Developer",
-    "image": "https://i.imgur.com/zUnSDle.jpeg",
+    "title": "Team Lead",
+    "image": "https://imgur.com/dYyETCn.jpeg",
     "linkedin": "https://www.linkedin.com/in/eric-guo1/",
     "github": "https://github.com/ericguo202",
-    "lead": false,
+    "lead": true,
   },
   {
     "firstName": "Adam",
     "lastName": "Belouad",
     "title": "Developer",
-    "image": "https://i.imgur.com/U5XnPnt.jpeg",
+    "image": "https://i.imgur.com/AxZaRGp.jpeg",
     "linkedin": "https://www.linkedin.com/in/adambelouad/",
     "github": "https://github.com/adambelouad",
     "lead": false,
@@ -445,7 +449,7 @@ const sparksTeam = [
     "firstName": "Timothy",
     "lastName": "Li",
     "title": "Developer",
-    "image": "https://i.imgur.com/sLgXMXx.jpeg",
+    "image": "https://imgur.com/W67E0rw.jpeg",
     "linkedin": "https://www.linkedin.com/in/timothy-li-1236722a6/",
     "github": "https://github.com/timothyli1331",
     "lead": false,
@@ -454,7 +458,7 @@ const sparksTeam = [
     "firstName": "David",
     "lastName": "Liu",
     "title": "Developer",
-    "image": "https://i.imgur.com/Jxx7T65.jpeg",
+    "image": "https://imgur.com/AGaPcKt.jpeg",
     "linkedin": "https://www.linkedin.com/in/david-liu-71398523a/",
     "github": "https://github.com/davidweizhongliu",
     "lead": false,
@@ -463,7 +467,7 @@ const sparksTeam = [
     "firstName": "Hellen",
     "lastName": "Luo",
     "title": "Developer",
-    "image": "https://i.imgur.com/7tbR6cr.jpeg",
+    "image": "https://imgur.com/hQBuSzN.jpeg",
     "linkedin": "https://www.linkedin.com/in/hellen-luo/",
     "github": "https://github.com/hellenlluo",
     "lead": false,
@@ -502,7 +506,7 @@ const hacksTeam = [
       "firstName": "Chloe",
       "lastName": "Lau",
       "title": "Principal",
-      "image": "https://i.imgur.com/BVrnu64.jpeg",
+      "image": "https://i.imgur.com/uYIDMqa.jpeg",
       "linkedin": "https://www.linkedin.com/in/chloe-hc-lau/",
       "github": "https://github.com/lauechlo",
       "lead": false,
@@ -511,7 +515,7 @@ const hacksTeam = [
     "firstName": "Kevin",
     "lastName": "Liu",
     "title": "Principal",
-    "image": "https://i.imgur.com/lJnHMe7.jpeg",
+    "image": "https://imgur.com/6YLSXtX.jpeg",
     "linkedin": "https://www.linkedin.com/in/kevin-liu-2495b6205/",
     "github": "https://github.com/Kevin-Liu-01",
     "lead": false,
@@ -523,7 +527,7 @@ const leadership_2025 = [
     "firstName": "Issac",
     "lastName": "Li",
     "title": "Co-President, HoagieSparks Lead, HoagiePlan Lead",
-    "image": "https://i.imgur.com/BG2eTIW.png",
+    "image": "https://imgur.com/P6u05wi.png",
     "linkedin": "https://www.linkedin.com/in/issactli/",
     "github": "https://github.com/issacli-0821",
   },
@@ -539,7 +543,7 @@ const leadership_2025 = [
     "firstName": "Gary",
     "lastName": "Smith",
     "title": "Head of Product",
-    "image": "https://i.imgur.com/Mdd9o1O.jpeg",
+    "image": "https://imgur.com/DisNeSP.jpeg",
     "linkedin": "https://www.linkedin.com/in/garydavidsmith/",
     "github": "https://github.com/Gary-D-Smith"
   },
@@ -555,7 +559,7 @@ const leadership_2025 = [
     "firstName": "Erica",
     "lastName": "Lee",
     "title": "Social Chair",
-    "image": "https://i.imgur.com/1nXfGV4.png",
+    "image": "https://imgur.com/566oSUx.png",
     "linkedin": "https://www.linkedin.com/in/ericayrlee/",
     "github": "https://github.com/ericayrlee"
   },
@@ -566,7 +570,7 @@ const leadership_2024 = [
     "firstName": "George",
     "lastName": "Chiriac",
     "title": "Co-President, Apps Director",
-    "image": "https://i.imgur.com/PX77Ymh.png",
+    "image": "https://imgur.com/lU6VN5V.png",
     "linkedin": "https://www.linkedin.com/in/george-chiriac/",
     "github": "https://github.com/ggchiriac",
     
@@ -583,7 +587,7 @@ const leadership_2024 = [
     "firstName": "Cathy",
     "lastName": "Di",
     "title": "Co-President (Spring)",
-    "image": "https://i.imgur.com/99D0fOy.png",
+    "image": "https://imgur.com/AZX2IQZ.png",
     "linkedin": "https://www.linkedin.com/in/catherine-di-559791254/",
     "github": "https://github.com/Maoshu413"
   },
@@ -602,7 +606,7 @@ const leadership_2023 = [
     "firstName": "Liam",
     "lastName": "Esparraguera",
     "title": "President",
-    "image": "https://i.imgur.com/qrQoCgX.jpeg",
+    "image": "https://imgur.com/7dC05GN.jpeg",
     "linkedin": "https://www.linkedin.com/in/liamesparraguera/",
     "github": "https://github.com/lfesp",
   },
@@ -621,7 +625,7 @@ const leadership_2020 = [
     "firstName": "Gagik",
     "lastName": "Amaryan",
     "title": "Founder, President",
-    "image": "https://i.imgur.com/Wadtxdd.jpeg",
+    "image": "https://imgur.com/8pZV9yO.jpeg",
     "linkedin": "https://www.linkedin.com/in/gagikam/",
     "github": "https://github.com/gagik/",
   },
@@ -640,14 +644,14 @@ const MemberCard = ({ member, foreground, background, ignoreTint, isPast = false
     {/* MAIN CONTENT */}
     <Pane 
       className={style.card}
-      backgroundColor={ignoreTint ? foreground : member.lead ? `color-mix(in srgb, ${background} 15%, ${foreground})` : "#F2EDF8"}
+      backgroundColor={member.coPresident ? `color-mix(in srgb, ${background} 15%, ${foreground})` : ignoreTint ? foreground : member.lead ? `color-mix(in srgb, ${background} 15%, ${foreground})` : "#F2EDF8"}
       width="330px"
       borderRadius="100px"
       padding="12px"
       paddingBottom="8px"
       position="relative"
       // border={member.lead ? `1px solid ${background}` : undefined}
-      boxShadow={member.lead ? `inset 0 0 0 3px ${background}90` : undefined}
+      boxShadow={member.coPresident ? `inset 0 0 0 3px #6C47AE` : member.lead ? `inset 0 0 0 3px ${background}90` : undefined}
       zIndex={2}
     >
       <Pane float="left">
