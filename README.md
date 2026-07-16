@@ -23,3 +23,9 @@ yarn serve
 ```
 
 Open the dev server at http://localhost:8000 after `yarn develop`.
+
+## Deployment
+Run the deploy script (build + publish):
+```bash
+yarn deploy
+```
