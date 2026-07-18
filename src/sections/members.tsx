@@ -399,7 +399,7 @@ const mailTeam = [
   },
 ]
 
-const sparksTeam = [
+const helpTeam = [
   {
     "firstName": "Maribel",
     "lastName": "Crespo",
@@ -526,7 +526,7 @@ const leadership_2025 = [
   {
     "firstName": "Issac",
     "lastName": "Li",
-    "title": "Co-President, HoagieSparks Lead, HoagiePlan Lead",
+    "title": "Co-President, HoagieHelp Lead, HoagiePlan Lead",
     "image": "https://imgur.com/P6u05wi.png",
     "linkedin": "https://www.linkedin.com/in/issactli/",
     "github": "https://github.com/issacli-0821",
@@ -534,7 +534,7 @@ const leadership_2025 = [
   {
     "firstName": "Spencer",
     "lastName": "Doyle",
-    "title": "Co-President, HoagieSparks Lead, HoagieMail Lead",
+    "title": "Co-President, HoagieHelp Lead, HoagieMail Lead",
     "image": "https://i.imgur.com/kUbzXL9.png",
     "linkedin": "https://www.linkedin.com/in/spencer-doyle3/",
     "github": "https://github.com/Spencer04Hire"
@@ -806,7 +806,7 @@ const Members = ()  => {
             <AppSection members={planTeam} app={{ name:"plan", color:"#FFAC00" }} />
             <AppSection members={mailTeam} app={{ name:"mail", color:"#F86D01" }} />
             <AppSection members={mealTeam} app={{ name:"meal", color:"#327D00" }} />
-            <AppSection members={sparksTeam} app={{ name:"sparks", color:"#3581B8" }} />
+            <AppSection members={helpTeam} app={{ name:"help", color:"#EA4040" }} />
             <AppSection members={hacksTeam} app={{ name:"hacks", color:"#4f6077" }} />
 
             <Heading width="100%" marginLeft={30} marginTop={100} marginBottom={20} size={900}>Past Leadership</Heading>
