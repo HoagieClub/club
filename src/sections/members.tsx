@@ -501,6 +501,54 @@ const helpTeam = [
   },
 ]
 
+const mealExchangeTeam = [
+  {
+    "firstName": "Alvin",
+    "lastName": "Sze",
+    "title": "Team Lead",
+    "image": "https://i.imgur.com/mZy9kzp.jpeg",
+    "linkedin": "https://www.linkedin.com/in/alvinsze/",
+    "github": "https://github.com/asze17",
+    "lead": true,
+  },
+    {
+    "firstName": "Eric",
+    "lastName": "Guo",
+    "title": "Software Engineer",
+    "image": "https://imgur.com/dYyETCn.jpeg",
+    "linkedin": "https://www.linkedin.com/in/eric-guo1/",
+    "github": "https://github.com/ericguo202",
+    "lead": false,
+  },
+  {
+    "firstName": "Allison",
+    "lastName": "Lee",
+    "title": "Product Manager",
+    "image": "https://imgur.com/IYdwYoZ.jpeg",
+    "linkedin": "https://www.linkedin.com/in/allisonelee/",
+    "github": "https://github.com/allisonelee",
+    "lead": false,
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Belouad",
+    "title": "Product Manager",
+    "image": "https://imgur.com/AxZaRGp.jpeg",
+    "linkedin": "https://www.linkedin.com/in/adambelouad/",
+    "github": "https://github.com/adambelouad",
+    "lead": false,
+  },
+  {
+    "firstName": "Chloe",
+    "lastName": "Lau",
+    "title": "Product Manager",
+    "image": "https://i.imgur.com/uYIDMqa.jpeg",
+    "linkedin": "https://www.linkedin.com/in/chloe-hc-lau/",
+    "github": "https://github.com/lauechlo",
+    "lead": false,
+  },
+]
+
 const hacksTeam = [
     {
       "firstName": "Chloe",
@@ -511,6 +559,7 @@ const hacksTeam = [
       "github": "https://github.com/lauechlo",
       "lead": false,
     },
+    /*
     {
     "firstName": "Kevin",
     "lastName": "Liu",
@@ -520,6 +569,7 @@ const hacksTeam = [
     "github": "https://github.com/Kevin-Liu-01",
     "lead": false,
   },
+      */
 ]
 
 const leadership_2025 = [
@@ -736,7 +786,7 @@ const AppSection = ({ members, app } ) =>
     marginTop="10px"
   >
     <Heading paddingBottom={10} marginLeft={30} size={900} width={"100%"} fontFamily="Poppins" fontWeight={600}>
-      <span style={{ color: "black" }}>hoagie</span>
+      <span style={{ color: "black" }}>{app.prefix ?? "hoagie"}</span>
       <span style={{ color: app.color }}>{app.name}</span>
     </Heading>
     {
@@ -807,6 +857,7 @@ const Members = ()  => {
             <AppSection members={mailTeam} app={{ name:"mail", color:"#F86D01" }} />
             <AppSection members={mealTeam} app={{ name:"meal", color:"#327D00" }} />
             <AppSection members={helpTeam} app={{ name:"help", color:"#EA4040" }} />
+            <AppSection members={mealExchangeTeam} app={{ prefix:"meal", name:"exchange", color:"#DF5413" }} />
             <AppSection members={hacksTeam} app={{ name:"hacks", color:"#4f6077" }} />
 
             <Heading width="100%" marginLeft={30} marginTop={100} marginBottom={20} size={900}>Past Leadership</Heading>
