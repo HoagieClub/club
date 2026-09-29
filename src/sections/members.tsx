@@ -10,7 +10,7 @@ const officers = [
     "lastName": "Choi",
     "title": "Co-President",
     "image": "https://imgur.com/xbzmDyx.jpeg",
-    "linkedin": "https://www.linkedin.com/in/hannah-choi/",
+    "linkedin": "https://www.linkedin.com/in/hannah-e-choi/",
     "github": "https://github.com/hannahchoi",
     "coPresident": true
   },
